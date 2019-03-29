@@ -79,6 +79,12 @@ h2 {
   color: purple;
 }
 
+.profile-link {
+  display:block;
+  background-color: blue;
+  radius:
+}
+
 
 @media screen and (min-width: 479px) {
   #projects {
