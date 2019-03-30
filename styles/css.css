@@ -10,6 +10,7 @@ html, body {
 
 body {
   font-family: 'Poppins', sans-serif;
+  width: 100%;
 }
 
 #navbar {
@@ -79,24 +80,34 @@ h2 {
   color: purple;
 }
 
-#contact-info {
-  width: 25%;
+.contact-section {
+  margin: auto;
+  width: 50%;
   display: flex;
   justify-content: space-around;
-  margin: 0 auto;
 }
 
-#profile-link {
-  display: block;
+.profile-link {
   background-color: lavender;
-  border-radius: 30px;
-  height: 60px;
-  width: 60px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
 }
 
-#profile-link img {
-  width: 40px;
-  margin: 0 auto;
+a {
+  text-decoration: none;
+  color: black;
+
+  font-size: 14px;
+}
+
+#linkedin-icon {
+  width: 60px;
+  padding-left: 7px;
 }
 
 
